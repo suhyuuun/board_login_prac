@@ -26,9 +26,7 @@ import service.BoardService;
 public class BoardController {
 
    private BoardService service;
-   
    private PageDTO pdto;
-   
    private int currentPage;
 
    public BoardController() {
